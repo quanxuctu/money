@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        table{
+            margin:0 auto;
+            background-color: orange;
+        }
+        .cot{
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<form action="">
+    <table border='1' cellpadding="0" cellspacing="30px">
+        <tr>
+            <td class="cot">Amount</td>
+            <td class="cot">
+                <input type="text" value="" id="so">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="cot">VNĐ</td>
+            <td class="cot">
+                <select id="vnd">
+                    <option value="1" >VND</option>
+                    <option value="23000" >USD</option>
+                </select>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td class="cot">USD</td>
+            <td class="cot">
+                <select id="usd">
+                    <option value="23000" >USD</option>
+                    <option value="1" >VND</option>
+                </select>
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td class="cot">Ket Qua</td>
+            <td class="cot">
+                <input type="text" value="" id="ketqua">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="cot" id="giua">
+                <input type="button" value="Submit" onclick="tinh();">
+                <input type="reset" value="Reset" >
+            </td>
+        </tr>
+
+    </table>
+</form>
+<script src="money.js"></script>
+</body>
+</html>
